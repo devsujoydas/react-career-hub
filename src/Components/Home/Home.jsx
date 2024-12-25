@@ -7,7 +7,9 @@ const Home = () => {
 
     return (
         <div>
+
             <Banner/>
+            
             <CategoriesList/>
             <FeaturedJobs/>
         </div>

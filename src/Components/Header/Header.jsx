@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 
 const Header = () => {
+    
     const links = <>
         <li><NavLink to={"/"}>Home</NavLink></li>
         <li><NavLink to={"/jobs"}>Jobs</NavLink></li>
@@ -10,7 +11,7 @@ const Header = () => {
     </>
     return (
 
-        <div className="navbar bg-base-100 md:max-w-screen-2xl mx-auto">
+        <div className="navbar bg-base-100 max-w-screen-2xl mx-auto md:px-28 md:py-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +34,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a href="" className="text-4xl font-bold">CareerHub</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -41,7 +42,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <NavLink to={'/'} className="text-xl bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:bg-[#7E90FE] px-5 py-4 text-white font-semibold rounded-lg active:scale-95 transition-all">Star Applying</NavLink> 
             </div>
         </div>
     )
