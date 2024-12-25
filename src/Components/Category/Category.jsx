@@ -7,9 +7,8 @@ const Category = ({ category }) => {
             <div className="flex flex-col  gap-3">
                 <div  className="">
                     <img className="p-2 w-16 shadow rounded-lg" src={logo} alt="" />
-
                 </div>
-
+                
                 <h1 className="font-bold mt-5 text-xl">{category_name}</h1>
                 <h1 className="text-gray-500">{availability}</h1>
             </div>
