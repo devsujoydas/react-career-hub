@@ -9,7 +9,6 @@ const Home = () => {
         <div>
 
             <Banner/>
-            
             <CategoriesList/>
             <FeaturedJobs/>
         </div>

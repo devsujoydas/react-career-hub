@@ -24,7 +24,7 @@ const JobDetails = () => {
 
 const navigate = useNavigate();
 const handleBack =() =>{
-  navigate(-1)
+  navigate('/applied')
 }
 
   return (
