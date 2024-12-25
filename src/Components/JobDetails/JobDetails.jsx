@@ -1,4 +1,5 @@
-import { useLoaderData, useParams } from "react-router-dom"
+/* eslint-disable no-unused-vars */
+import { useLoaderData, useNavigate, useParams } from "react-router-dom"
 import bgImg1 from "../../../public/assets/images/bg1.png"
 import bgImg2 from "../../../public/assets/images/bg2.png"
 
@@ -20,6 +21,11 @@ const JobDetails = () => {
   const { job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
   const { company_name, job_title, job_type, location, logo, remote_or_onsite, salary } = job;
   const { phone, address, email } = contact_information;
+
+const navigate = useNavigate();
+const handleBack =() =>{
+  navigate(-1)
+}
 
   return (
     <div className="">
@@ -69,7 +75,7 @@ const JobDetails = () => {
               </div>
 
 
-              <button className={applyNowBtn}>Apply Now</button>
+              <button onClick={handleBack} className={applyNowBtn}>Apply Now</button>
             </div>
 
           </div>
