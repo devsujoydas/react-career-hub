@@ -1,10 +1,13 @@
 import Applied from "./Applied"
 import bgImg1 from "../../../public/assets/images/bg1.png"
 import bgImg2 from "../../../public/assets/images/bg2.png"
+import { useLoaderData } from "react-router-dom"
 
 
 
 const AppliedJobs = () => {
+
+  const jobs = useLoaderData()
 
   return (
     
@@ -17,9 +20,9 @@ const AppliedJobs = () => {
       
       <div className="max-w-screen-2xl md:mx-auto my-20">
       <div className="md:mx-32 mx-10 grid gap-6">
-        <Applied />
-        <Applied />
-        <Applied />
+        {
+          jobs.map((job,idx)=><Applied key={idx} job={job}/>)
+        }
       </div>
     </div>
     </div>

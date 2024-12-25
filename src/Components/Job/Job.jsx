@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
-
-import { MdLocationOn } from 'react-icons/md';
-import { AiOutlineDollarCircle } from "react-icons/ai";
+import salaryImg from "../../../public/assets/icons/money.png"
+import locationImg from "../../../public/assets/icons/Location2.png"
 import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
@@ -30,8 +29,12 @@ const Job = ({ job }) => {
         </div>
 
         <div className='mt-2 flex flex-col md:flex-row md:gap-5 gap-2'>
-          <h1 className='flex items-center gap-1'><MdLocationOn />{location}</h1>
-          <h1 className='flex items-center gap-1'><AiOutlineDollarCircle />Salary : {salary}</h1>
+          <h1 className='flex md:w-1/2 items-start gap-1'>
+            <img src={locationImg} alt="" />
+            <span>{location}</span>
+          </h1>
+
+          <h1 className='flex md:w-1/2 items-center gap-1'> <img src={salaryImg} alt="" /> Salary : {salary}</h1>
         </div>
 
 

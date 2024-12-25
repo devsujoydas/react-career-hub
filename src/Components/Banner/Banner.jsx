@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import bannerImg from '../../../public/assets/images/user.png'
 const Banner = () => {
     return (
@@ -14,7 +15,9 @@ const Banner = () => {
                         <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
 
                         <div>
-                            <button className="text-xl bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:bg-[#7E90FE] px-5 py-4 text-white font-semibold rounded-lg active:scale-95 transition-all">Get Started</button>
+                            <Link to={'/jobs'}>
+                                <button className="text-xl bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:bg-[#7E90FE] px-5 py-4 text-white font-semibold rounded-lg active:scale-95 transition-all">Get Started</button>
+                            </Link>
                         </div>
 
                     </div>

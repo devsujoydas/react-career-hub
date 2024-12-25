@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import { useEffect } from "react"
 import { useState } from "react"
 import Job from "../Job/Job"
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = () => {
 
@@ -26,8 +28,13 @@ const FeaturedJobs = () => {
                 </div>
             </div>
 
-            <div className={dataLenght===jobs.length ? 'hidden' :"flex justify-center items-center p-10"}>
+            {/* <div className={dataLenght===jobs.length ? 'hidden' :"flex justify-center items-center p-10"}>
                 <button className= 'bg-gradient-to-r from-[#7E90FE] to-[#9873FF] px-4 py-2 rounded-md hover:bg-gradient-to-t hover:from-[#7E90FE] hover:to-[#9873FF] active:scale-95 transition-all font-semibold text-white' onClick={()=> setDataLength(jobs.length)}>Show All</button>
+            </div> */}
+            <div className={dataLenght===jobs.length ? 'hidden' :"flex justify-center items-center p-10"}>
+                <Link to={'/jobs'}>
+                <button className= 'bg-gradient-to-r from-[#7E90FE] to-[#9873FF] px-4 py-2 rounded-md hover:bg-gradient-to-t hover:from-[#7E90FE] hover:to-[#9873FF] active:scale-95 transition-all font-semibold text-white'>Show All</button>
+                </Link>
             </div>
         </div>
     )

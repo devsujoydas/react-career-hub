@@ -17,15 +17,14 @@ const JobDetails = () => {
   const { id } = useParams();
   const idInt = parseInt(id)
   const job = jobs.find(job => job.id === idInt);
-  console.log(job);
   const { job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
   const { company_name, job_title, job_type, location, logo, remote_or_onsite, salary } = job;
   const { phone, address, email } = contact_information;
 
-const navigate = useNavigate();
-const handleBack =() =>{
-  navigate('/applied')
-}
+  const navigate = useNavigate();
+  const handleBack = () => {
+    navigate('/applied')
+  }
 
   return (
     <div className="">
@@ -39,6 +38,7 @@ const handleBack =() =>{
       <div className="max-w-screen-2xl md:mx-auto mx-10">
         <div className="md:mx-28">
           <div className="grid md:grid-cols-3 gap-10 md:gap-5 my-20">
+
             <div className="md:col-span-2 flex flex-col gap-8 leading-9 text-lg">
               <h2 className="text-gray-500"><span className="font-bold text-black">Job Description: </span>{job_description}</h2>
               <h2 className="text-gray-500"><span className="font-bold text-black">Job Responsibility: </span>{job_responsibility}</h2>
@@ -52,16 +52,20 @@ const handleBack =() =>{
               <div className="p-8 rounded-lg bg-[#7E90FE] bg-opacity-20 grid gap-5">
                 <h1 className="font-bold text-xl">Job Details</h1>
                 <div className='border-t-2 grid gap-5 pt-5 border-[#ccd3ff]  text-lg'>
-                  <h1 className="flex gap-2"><img src={salaryImg} alt="" /><span className="font-bold">Salary:</span>{salary} (Per Month)</h1>
+                  <h1 className="flex items-start gap-2">
+                    <img src={salaryImg} alt="" />
+                    <span className="font-bold">Salary:</span>
+                    {salary} (Per Month)
+                  </h1>
                   <h1 className="flex gap-2"><img src={jobTitleImg} alt="" /><span className="font-bold">Job Title: </span>{job_title}</h1>
                 </div>
                 <h1 className="font-bold text-xl">Contact Information</h1>
                 <div className='border-t-2 grid gap-3 pt-5 border-[#ccd3ff] text-lg'>
-                  <h1 className="flex gap-2"><img src={phoneImg} alt="" /><span className="font-bold">Phone : </span>{phone}</h1>
+                  <h1 className="flex items-start gap-2"><img src={phoneImg} alt="" /><span className="font-bold">Phone : </span>{phone}</h1>
                   <h1 className="flex gap-2"><img src={emailImg} alt="" /><span className="font-bold">Email :</span>{email}</h1>
                   <h1 className="flex gap-2">
                     <div>
-                      <img className="w-10" src={locationImg} alt="" />
+                      <img className="md:w-10 w-16" src={locationImg} alt="" />
                     </div>
                     <span className="font-bold">Address:</span>
                     <span>{address}</span>

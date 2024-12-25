@@ -1,117 +1,192 @@
 [
-     {
-      "id": 1,
-      "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
-      "job_title": "Technical Database Engineer",
-      "company_name": "Google LLC",
-      "remote_or_onsite": "Remote",
-      "location": "Dhaka, Bangladesh",
-      "job_type": "Full Time",
-      "salary": "100k-150k",
-      "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "educational_requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field.",
-      "contact_information": {
-        "phone": "01750-00 00 00",
-        "email": "info@gmail.com",
-        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-      }
-    },
-    {
-        "id": 2,
-        "logo": "https://i.ibb.co.com/wQtJYQ6/netflix-4-1.png",
-        "job_title": "Senior Product Designer",
-        "company_name": "Netflix",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      },
-      {
-        "id": 3,
-        "logo": "https://i.ibb.co.com/Gc3jDYZ/TESLA.png",
-        "job_title": "Software Engineer",
-        "company_name": "Tesla",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      },
-      {
-        "id": 4,
-        "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
-        "job_title": "Software Engineer",
-        "company_name": "Google LLC",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      },
-      {
-        "id": 5,
-        "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
-        "job_title": "Technical Database Engineer",
-        "company_name": "Tesla",
-        "remote_or_onsite": "Remote",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      },
-      {
-        "id": 6,
-        "logo": "https://i.ibb.co.com/wQtJYQ6/netflix-4-1.png",
-        "job_title": "Senior Product Designer",
-        "company_name": "Netflix",
-        "remote_or_onsite": "Remote",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      }
-  
-  ]
+  {
+    "id": 1,
+    "logo": "https://i.ibb.co/PzrbTxh/google-1-1-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Onsite",
+    "location": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+    "job_type": "Part Time",
+    "salary": "130k - 190k",
+    "job_description": "Google is seeking a highly skilled Software Engineer to design, develop, and maintain cutting-edge web applications and scalable backend services. The ideal candidate will work on complex software systems, improve existing platforms, and ensure that the solutions developed are high-performance and reliable. As part of the team, you will work across the full stack, solving real-world problems that impact millions of users worldwide.",
+    "job_responsibility": "Develop and maintain web applications using modern technologies. Collaborate with cross-functional teams to define product features and user stories. Write high-quality, maintainable code and implement best practices in coding standards. Design and optimize systems for performance, reliability, and scalability in a fast-paced environment. Mentor junior engineers and conduct code reviews to improve team performance.",
+    "education_requirements": "Bachelor's degree in Computer Science, Engineering, or related technical field. Master's preferred.",
+    "experiences": "3-5 years of software development experience in a fast-paced, innovative environment, preferably with experience in cloud technologies and microservices architecture.",
+    "contact_information": {
+      "phone": "+1 650-253-0000",
+      "email": "hr@google.com",
+      "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "https://i.ibb.co.com/wQtJYQ6/netflix-4-1.png",
+    "job_title": "Product Manager",
+    "company_name": "Netflix",
+    "remote_or_onsite": "Onsite",
+    "location": "100 Winchester Circle, Los Gatos, CA 95032, USA",
+    "job_type": "Internship",
+    "salary": "120k - 160k",
+    "job_description": "Netflix is looking for a highly motivated Product Manager to help innovate and enhance its streaming services. The successful candidate will drive the strategy and roadmap for new features, collaborating with engineering, design, and marketing teams to deliver user-centric solutions. This role requires a deep understanding of market trends, user behavior, and a passion for delivering seamless user experiences that scale.",
+    "job_responsibility": "Lead product development cycles from ideation through to launch, ensuring alignment with company goals. Conduct market research and user testing to gather insights that guide product development. Collaborate with engineering, design, and other cross-functional teams to bring product features to life. Analyze product performance data and optimize features based on user feedback. Present product strategy and progress updates to senior management and stakeholders.",
+    "education_requirements": "Bachelor's degree in Business, Computer Science, or a related field. MBA or other advanced degree preferred.",
+    "experiences": "3+ years of experience in product management, preferably in the tech, entertainment, or media industry, with a proven track record of successful product launches.",
+    "contact_information": {
+      "phone": "+1 408-540-3700",
+      "email": "careers@netflix.com",
+      "address": "100 Winchester Circle, Los Gatos, CA 95032, USA"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "https://i.ibb.co.com/Gc3jDYZ/TESLA.png",
+    "job_title": "Mechanical Engineer",
+    "company_name": "Tesla",
+    "remote_or_onsite": "Remote",
+    "location": "3500 Deer Creek Road, Palo Alto, CA 94304, USA",
+    "job_type": "Contract",
+    "salary": "90k - 130k",
+    "job_description": "Tesla is hiring a Mechanical Engineer who will be responsible for designing components for Tesla’s next-generation electric vehicles. This role involves creating innovative solutions for performance, safety, and design, while collaborating closely with other engineering teams. The engineer will work on cutting-edge technologies and have a direct impact on the electric vehicle industry’s future.",
+    "job_responsibility": "Design and prototype new components for Tesla electric vehicles, from concept to production. Collaborate with manufacturing teams to ensure seamless integration of designs into production. Conduct engineering analysis, such as stress testing and thermal simulations, to ensure product quality and durability. Work with other teams to solve complex technical problems and deliver on ambitious timelines. Maintain up-to-date knowledge of industry trends and best practices in automotive engineering.",
+    "education_requirements": "Bachelor's degree in Mechanical Engineering, Automotive Engineering, or a related field. Master’s degree preferred.",
+    "experiences": "2-4 years of experience in mechanical design, preferably in the automotive industry, with hands-on experience in CAD software and prototype development.",
+    "contact_information": {
+      "phone": "+1 650-681-5000",
+      "email": "hr@tesla.com",
+      "address": "3500 Deer Creek Road, Palo Alto, CA 94304, USA"
+    }
+  },
+  {
+    "id": 4,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Data Scientist",
+    "company_name": "Microsoft",
+    "remote_or_onsite": "Remote",
+    "location": "One Microsoft Way, Redmond, WA 98052, USA",
+    "job_type": "Internship",
+    "salary": "110k - 160k",
+    "job_description": "Microsoft is looking for a Data Scientist to join their research team, where they will work on advanced analytics, AI models, and data-driven solutions for business and customer success. The Data Scientist will collaborate with teams across Microsoft to build predictive models, analyze large datasets, and extract actionable insights to optimize product and business strategies.",
+    "job_responsibility": "Develop and implement machine learning algorithms to solve business problems. Work with large datasets to uncover insights, identify patterns, and provide actionable recommendations. Collaborate with product teams to integrate data-driven insights into product development. Use data visualization techniques to communicate results to technical and non-technical stakeholders. Help define the data strategy and architecture to enable robust data science capabilities.",
+    "education_requirements": "Master’s degree or PhD in Data Science, Computer Science, Applied Mathematics, or a related field.",
+    "experiences": "4+ years of experience in data science, with expertise in machine learning, statistical analysis, and big data tools (e.g., Hadoop, Spark). Strong programming skills in Python, R, and SQL.",
+    "contact_information": {
+      "phone": "+1 425-882-8080",
+      "email": "recruitment@microsoft.com",
+      "address": "One Microsoft Way, Redmond, WA 98052, USA"
+    }
+  },
+  {
+    "id": 5,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Social Media Analyst",
+    "company_name": "Twitter",
+    "remote_or_onsite": "Onsite",
+    "location": "1355 Market Street, Suite 900, San Francisco, CA 94103, USA",
+    "job_type": "Contract",
+    "salary": "100k - 140k",
+    "job_description": "Twitter is seeking a Social Media Analyst to evaluate and optimize social media strategies that drive engagement on the platform. The role involves analyzing trends, crafting actionable insights, and collaborating with content teams to maximize reach and engagement across Twitter’s global user base. The ideal candidate will have a passion for data-driven decision-making and social media culture.",
+    "job_responsibility": "Monitor and analyze social media trends and key performance metrics to assess Twitter's engagement strategies. Generate weekly and monthly reports to track platform growth, user engagement, and content effectiveness. Work closely with marketing and product teams to enhance Twitter’s social media campaigns. Identify areas for improvement in Twitter's content and social media interaction strategies. Collaborate with community managers and other teams to develop data-driven content strategies.",
+    "education_requirements": "Bachelor's degree in Marketing, Communications, or a related field. A strong interest or background in social media is preferred.",
+    "experiences": "2-3 years of experience in social media analytics, digital marketing, or content strategy, with proficiency in social media tools and data analytics platforms.",
+    "contact_information": {
+      "phone": "+1 415-222-9670",
+      "email": "hr@twitter.com",
+      "address": "1355 Market Street, Suite 900, San Francisco, CA 94103, USA"
+    }
+  },
+  {
+    "id": 6,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Content Strategist",
+    "company_name": "YouTube",
+    "remote_or_onsite": "Onsite",
+    "location": "901 Cherry Avenue, San Bruno, CA 94066, USA",
+    "job_type": "Full Time",
+    "salary": "115k - 170k",
+    "job_description": "YouTube is looking for a Content Strategist who will play a key role in shaping YouTube's content direction. This involves creating innovative strategies to engage viewers, optimizing video content to enhance visibility, and working with creators and advertisers to craft targeted campaigns.",
+    "job_responsibility": "Develop content strategies to grow YouTube’s audience and engagement across various regions. Optimize video content for discoverability and audience engagement. Collaborate with creators to develop tailored content strategies. Work with data teams to measure content performance and make data-driven decisions. Ensure that content aligns with YouTube’s brand vision and advertiser objectives.",
+    "education_requirements": "Bachelor’s degree in Communications, Marketing, or a related field.",
+    "experiences": "3-5 years of experience in content strategy, digital media, or related fields, with a deep understanding of YouTube and digital marketing trends.",
+    "contact_information": {
+      "phone": "+1 650-253-0000",
+      "email": "careers@youtube.com",
+      "address": "901 Cherry Avenue, San Bruno, CA 94066, USA"
+    }
+  },
+  {
+    "id": 7,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Facebook",
+    "remote_or_onsite": "Onsite",
+    "location": "1 Hacker Way, Menlo Park, CA 94025, USA",
+    "job_type": "Internship",
+    "salary": "125k - 160k",
+    "job_description": "Facebook is looking for a Software Engineer to work on building scalable and innovative features for its social platform. The engineer will work closely with design and product teams to craft impactful solutions that enhance user experience and drive engagement across the platform.",
+    "job_responsibility": "Develop, test, and deploy new features for Facebook’s social platform. Collaborate with cross-functional teams to define technical solutions. Write clean, efficient, and reusable code. Ensure platform stability, scalability, and performance under high user traffic. Participate in peer code reviews and mentor junior developers.",
+    "education_requirements": "Bachelor's degree in Computer Science, Engineering, or related technical field.",
+    "experiences": "2-5 years of experience in software engineering with expertise in React, JavaScript, and backend technologies.",
+    "contact_information": {
+      "phone": "+1 650-308-7300",
+      "email": "careers@facebook.com",
+      "address": "1 Hacker Way, Menlo Park, CA 94025, USA"
+    }
+  },
+  {
+    "id": 8,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Operations Manager",
+    "company_name": "Amazon",
+    "remote_or_onsite": "Onsite",
+    "location": "410 Terry Avenue North, Seattle, WA 98109, USA",
+    "job_type": "Part Time",
+    "salary": "100k - 140k",
+    "job_description": "Amazon is hiring an Operations Manager to oversee daily operations in its fulfillment centers. The role involves managing teams, ensuring the highest level of operational efficiency, and working towards optimizing processes to achieve company goals.",
+    "job_responsibility": "Lead and manage a team of associates to meet operational targets and customer satisfaction. Oversee inventory management, shipping, and delivery logistics. Monitor key performance indicators and implement strategies to improve efficiency. Conduct regular audits and ensure compliance with safety standards.",
+    "education_requirements": "Bachelor's degree in Business, Operations Management, or a related field.",
+    "experiences": "3-5 years of experience in operations management, preferably in logistics or e-commerce.",
+    "contact_information": {
+      "phone": "+1 206-266-1000",
+      "email": "hr@amazon.com",
+      "address": "410 Terry Avenue North, Seattle, WA 98109, USA"
+    }
+  },
+  {
+    "id": 9,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "Music Curator",
+    "company_name": "Spotify",
+    "remote_or_onsite": "Remote",
+    "location": "4-6 St. James's Market, London, SW1Y 4AH, UK",
+    "job_type": "Contract",
+    "salary": "70k - 100k",
+    "job_description": "Spotify is looking for a Music Curator to join its team, responsible for creating personalized music experiences for users. The role involves collaborating with data scientists and music experts to develop playlists and recommendations based on user preferences and listening habits.",
+    "job_responsibility": "Curate music playlists and recommendations for users based on listening data and market trends. Collaborate with marketing and data teams to improve user experiences. Stay up-to-date with emerging music trends and artists. Work with the editorial team to create unique music experiences for global audiences.",
+    "education_requirements": "Bachelor's degree in Music, Communications, or a related field.",
+    "experiences": "2+ years of experience in music curation, with a passion for music trends and user-centered content.",
+    "contact_information": {
+      "phone": "+44 20 3499 4567",
+      "email": "careers@spotify.com",
+      "address": "4-6 St. James's Market, London, SW1Y 4AH, UK"
+    }
+  },
+  {
+    "id": 10,
+    "logo": "https://i.ibb.co.com/6yxWzm6/airbnb-logo-belo-1-1.png",
+    "job_title": "UX Designer",
+    "company_name": "Adobe",
+    "remote_or_onsite": "Remote",
+    "location": "345 Park Avenue, San Jose, CA 95110, USA",
+    "job_type": "Part Time",
+    "salary": "120k - 160k",
+    "job_description": "Adobe is hiring a UX Designer to create compelling user experiences for its suite of creative software. The ideal candidate will have expertise in user-centered design and will work closely with product and engineering teams to deliver intuitive interfaces.",
+    "job_responsibility": "Conduct user research to understand needs and behaviors. Design wireframes, prototypes, and user interfaces for Adobe’s software products. Collaborate with product managers and developers to implement design solutions. Analyze user feedback and iterate on design solutions to improve usability.",
+    "education_requirements": "Bachelor's degree in Graphic Design, Human-Computer Interaction, or a related field.",
+    "experiences": "3-5 years of experience in UX design, with a strong portfolio showcasing design work for digital products.",
+    "contact_information": {
+      "phone": "+1 408-536-6000",
+      "email": "hr@adobe.com",
+      "address": "345 Park Avenue, San Jose, CA 95110, USA"
+    }
+  }
+]
