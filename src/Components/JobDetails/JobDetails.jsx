@@ -36,12 +36,9 @@ const handleBack =() =>{
         <img className="absolute bottom-0 left-0" src={bgImg1} alt="" />
       </div>
 
-
       <div className="max-w-screen-2xl md:mx-auto mx-10">
         <div className="md:mx-28">
-
           <div className="grid md:grid-cols-3 gap-10 md:gap-5 my-20">
-
             <div className="md:col-span-2 flex flex-col gap-8 leading-9 text-lg">
               <h2 className="text-gray-500"><span className="font-bold text-black">Job Description: </span>{job_description}</h2>
               <h2 className="text-gray-500"><span className="font-bold text-black">Job Responsibility: </span>{job_responsibility}</h2>
@@ -52,14 +49,12 @@ const handleBack =() =>{
             </div>
 
             <div className="flex flex-col gap-6 ">
-
               <div className="p-8 rounded-lg bg-[#7E90FE] bg-opacity-20 grid gap-5">
                 <h1 className="font-bold text-xl">Job Details</h1>
                 <div className='border-t-2 grid gap-5 pt-5 border-[#ccd3ff]  text-lg'>
                   <h1 className="flex gap-2"><img src={salaryImg} alt="" /><span className="font-bold">Salary:</span>{salary} (Per Month)</h1>
                   <h1 className="flex gap-2"><img src={jobTitleImg} alt="" /><span className="font-bold">Job Title: </span>{job_title}</h1>
                 </div>
-
                 <h1 className="font-bold text-xl">Contact Information</h1>
                 <div className='border-t-2 grid gap-3 pt-5 border-[#ccd3ff] text-lg'>
                   <h1 className="flex gap-2"><img src={phoneImg} alt="" /><span className="font-bold">Phone : </span>{phone}</h1>
@@ -73,7 +68,6 @@ const handleBack =() =>{
                   </h1>
                 </div>
               </div>
-
 
               <button onClick={handleBack} className={applyNowBtn}>Apply Now</button>
             </div>
