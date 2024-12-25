@@ -6,16 +6,16 @@ import loacationImg from "../../../public/assets/icons/Location.png"
 const Applied = () => {
     const btnStyle = "px-5 py-2 font-bold rounded-md hover:bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:text-white border  text-[#7E90FE] border-[#7E90FE] transition-all active:scale-95 duration-900"
 
-    const viewDetailsBtn = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] px-4 py-2 rounded-md hover:bg-gradient-to-t hover:from-[#7E90FE] hover:to-[#9873FF] active:scale-95 transition-all font-semibold text-white"
+    const viewDetailsBtn = "bg-gradient-to-r from-[#7E90FE] to-[#9873FF] px-5 text-xl py-3 rounded-md hover:bg-gradient-to-t hover:from-[#7E90FE] hover:to-[#9873FF] active:scale-95 transition-all font-semibold text-white"
 
 
     return (
-        <div className="rounded-xl border p-5 ">
-            <div className="flex justify-between items-center gap-6">
+        <div className="rounded-xl border md:p-5 p-8 ">
+            <div className="flex justify-between items-center md:flex-row flex-col gap-6">
 
-                <div className='flex gap-5 justify-center items-center'>
+                <div className='flex gap-5 md:flex-row flex-col justify-center items-center'>
 
-                    <div className='bg-base-200 rounded-xl h-52 w-52 flex justify-center items-center'>
+                    <div className='bg-base-200 rounded-xl h-52 md:w-52 w-full flex justify-center items-center'>
                         <img src="https://i.ibb.co/PzrbTxh/google-1-1-1.png" alt="" />
                     </div>
 
