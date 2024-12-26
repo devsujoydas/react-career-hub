@@ -3,9 +3,10 @@ import twitterImg from '../../../public/assets/icons/twitter.png';
 import instaImg from '../../../public/assets/icons/insta.png';
 
 const Footer = () => {
+    const aStyle = 'hover:underline hover:text-emerald-600 hover:-translate-y-1 transition-all'
     return (
         <div className="bg-base-200 ">
-            <div>
+            <div id='footer'>
                 <div className=" max-w-screen-2xl md:mx-auto mx-10 text-base-content py-20">
                     <div className='grid md:grid-cols-6 grid-cols-1 gap-10 md:mx-28'>
 
@@ -13,36 +14,40 @@ const Footer = () => {
                             <h1 className='text-4xl font-bold'>CareerHub</h1>
                             <p>There are many variations of passages <br /> of Lorem Ipsum , but the majority have <br /> suffered alteration in some form.</p>
                             <div className='flex gap-2'>
-                                <img className='active:scale-95 border rounded-full transition-all' src={fbImg} alt="" />
+                                <a href="https://www.facebook.com/sujoydas36">
+                                    <img className='active:scale-95 border rounded-full transition-all' src={fbImg} alt="" />
+                                </a>
                                 <img className='active:scale-95 border rounded-full transition-all' src={twitterImg} alt="" />
-                                <img className='active:scale-95 border rounded-full transition-all' src={instaImg} alt="" />
+                                <a href="https://www.instagram.com/sdsujoy920243/">
+                                    <img className='active:scale-95 border rounded-full transition-all' src={instaImg} alt="" />
+                                </a>
                             </div>
                         </div>
                         <div className='flex flex-col gap-4'>
                             <h6 className="footer-title">Company</h6>
-                            <a className="">About Us</a>
-                            <a className="">Work</a>
-                            <a className="">Latest News</a>
-                            <a className="">Careers </a>
+                            <a href='#footer' className={aStyle}>About Us</a>
+                            <a href='#footer' className={aStyle}>Work</a>
+                            <a href='#footer' className={aStyle}>Latest News</a>
+                            <a href='#footer' className={aStyle}>Careers </a>
                         </div>
                         <div className='flex flex-col gap-4'>
                             <h6 className="footer-title">Product</h6>
-                            <a className="">Prototype</a>
-                            <a className="">Plans & Pricing</a>
-                            <a className="">Customers</a>
-                            <a className="">Integrations</a>
+                            <a href='#footer' className={aStyle}>Prototype</a>
+                            <a href='#footer' className={aStyle}>Plans & Pricing</a>
+                            <a href='#footer' className={aStyle}>Customers</a>
+                            <a href='#footer' className={aStyle}>Integrations</a>
                         </div>
                         <div className='flex flex-col gap-4'>
                             <h6 className="footer-title">Support</h6>
-                            <a className="">Help Desk</a>
-                            <a className="">Sales</a>
-                            <a className="">Become a Partner</a>
-                            <a className="">Developers </a>
+                            <a href='#footer' className={aStyle}>Help Desk</a>
+                            <a href='#footer' className={aStyle}>Sales</a>
+                            <a href='#footer' className={aStyle}>Become a Partner</a>
+                            <a href='#footer' className={aStyle}>Developers </a>
                         </div>
                         <div className='flex flex-col gap-4'>
                             <h6 className="footer-title">Contact</h6>
-                            <a className="">524 Broadway , NYC</a>
-                            <a className="">+1 777 - 978 - 5570</a>
+                            <a href='#footer' className={aStyle}>524 Broadway , NYC</a>
+                            <a href='#footer' className={aStyle}>+1 777 - 978 - 5570</a>
                         </div>
 
 

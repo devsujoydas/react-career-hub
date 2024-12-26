@@ -6,12 +6,11 @@ const Header = () => {
         <li><NavLink to={"/"}>Home</NavLink></li>
         <li><NavLink to={"/jobs"}>Jobs</NavLink></li>
         <li><NavLink to={"/applied"}>Applied Jobs</NavLink></li>
-        <li><NavLink to={"/statistics"}>Statistics</NavLink></li>
-        <li><NavLink to="/blogs">Blogs</NavLink></li>
     </>
     return (
 
-        <div className="navbar bg-[#7E90FE] bg-opacity-5 max-w-screen-2xl mx-auto md:px-28 md:py-5">
+        <div className="bg-[#7E90FE] bg-opacity-5">
+            <div className="navbar max-w-screen-2xl mx-auto md:px-28 md:py-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,8 +41,9 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink to={'/'} className="text-xl bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:bg-[#7E90FE] px-5 py-4 text-white font-semibold rounded-lg active:scale-95 transition-all">Star Applying</NavLink> 
+                <NavLink to={'/jobs'} className="text-xl bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:bg-[#7E90FE] px-5 py-4 text-white font-semibold rounded-lg active:scale-95 transition-all">Start Applying</NavLink> 
             </div>
+        </div>
         </div>
     )
 }
