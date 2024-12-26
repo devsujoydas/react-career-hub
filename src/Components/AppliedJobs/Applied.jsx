@@ -14,7 +14,7 @@ const Applied = ({job}) => {
 
     return (
         <div className="rounded-xl border md:p-5 p-6 ">
-            <div className="flex justify-between items-center md:flex-row flex-col gap-6">
+            <div className="flex justify-between items-center lg:flex-row flex-col gap-6">
 
                 <div className='flex gap-5 md:flex-row flex-col justify-center items-center'>
 
@@ -31,7 +31,7 @@ const Applied = ({job}) => {
                             <button className={btnStyle}>{job_type}</button>
                         </div>
 
-                        <div className=' flex flex-col md:flex-row md:gap-5 gap-2 text-lg'>
+                        <div className=' flex flex-col lg:flex-row md:gap-5 gap-2 text-lg'>
                             <h1 className='flex items-center gap-1'><img src={loacationImg} alt="" />{location}</h1>
                             <h1 className='flex items-center gap-1'><AiOutlineDollarCircle />Salary : {salary}</h1>
                         </div>

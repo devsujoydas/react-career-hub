@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useLoaderData, useNavigate, useParams } from "react-router-dom"
+import { IoArrowBack } from "react-icons/io5";
 import bgImg1 from "../../../public/assets/images/bg1.png"
 import bgImg2 from "../../../public/assets/images/bg2.png"
 
@@ -9,6 +10,7 @@ import phoneImg from "../../../public/assets/icons/phone.png"
 import emailImg from "../../../public/assets/icons/email.png"
 import locationImg from "../../../public/assets/icons/Location2.png"
 import { ToastContainer, toast } from 'react-toastify';
+import { saveJobApplication } from "../utility/LocalStorage"
 
 
 
@@ -24,14 +26,19 @@ const JobDetails = () => {
 
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate('/applied')
+    navigate(-1)
   }
 
-  const notify = () => toast('Applied');
-
+  const handleApplyJob = () => {
+    saveJobApplication(idInt)
+    toast('You have applied successfully')
+  }
   return (
     <div className="">
       <ToastContainer />
+      <div>
+        <button onClick={handleBack} className="fixed bottom-5 right-5 bg-emerald-500 rounded-full text-white font-bold p-2"><IoArrowBack /></button>
+      </div>
 
       <img className="absolute top-0 right-0" src={bgImg2} alt="" />
       <div className="h-56 bg-[#7E90FE] bg-opacity-5 flex justify-center items-center relative">
@@ -77,7 +84,7 @@ const JobDetails = () => {
                 </div>
               </div>
 
-              <button onClick={notify} className={applyNowBtn}>Apply Now</button>
+              <button onClick={handleApplyJob} className={applyNowBtn}>Apply Now</button>
             </div>
 
           </div>
