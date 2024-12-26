@@ -8,6 +8,7 @@ import jobTitleImg from "../../../public/assets/icons/calendar.png"
 import phoneImg from "../../../public/assets/icons/phone.png"
 import emailImg from "../../../public/assets/icons/email.png"
 import locationImg from "../../../public/assets/icons/Location2.png"
+import { ToastContainer, toast } from 'react-toastify';
 
 
 
@@ -26,8 +27,11 @@ const JobDetails = () => {
     navigate('/applied')
   }
 
+  const notify = () => toast('Applied');
+
   return (
     <div className="">
+      <ToastContainer />
 
       <img className="absolute top-0 right-0" src={bgImg2} alt="" />
       <div className="h-56 bg-[#7E90FE] bg-opacity-5 flex justify-center items-center relative">
@@ -37,7 +41,7 @@ const JobDetails = () => {
 
       <div className="max-w-screen-2xl md:mx-auto mx-10">
         <div className="md:mx-28">
-          <div className="grid md:grid-cols-3 gap-10 md:gap-5 my-20">
+          <div className="grid lg:grid-cols-3 gap-10 md:gap-5 my-20">
 
             <div className="md:col-span-2 flex flex-col gap-8 leading-9 text-lg">
               <h2 className="text-gray-500"><span className="font-bold text-black">Job Description: </span>{job_description}</h2>
@@ -73,7 +77,7 @@ const JobDetails = () => {
                 </div>
               </div>
 
-              <button onClick={handleBack} className={applyNowBtn}>Apply Now</button>
+              <button onClick={notify} className={applyNowBtn}>Apply Now</button>
             </div>
 
           </div>
