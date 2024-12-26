@@ -48,7 +48,7 @@ const AppliedJobs = () => {
 
       <div className='max-w-screen-2xl md:mx-auto my-20'>
 
-        <div className='md:mx-32 mx-10 flex justify-end items-center pb-20'>
+        <div className='md:mx-32 mx-10 flex justify-start items-center pb-20'>
           <details className="dropdown">
             <summary className="btn m-1"><CiFilter />Filter</summary>
             <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
