@@ -6,7 +6,7 @@ const Banner = () => {
         <div className='bg-[#7E90FE] bg-opacity-10 pt-10 mb-20 '>
             <div className='max-w-screen-2xl md:mx-auto mx-10'>
 
-                <div className='md:mx-28 flex md:flex-row flex-col justify-between md:leading-10 items-center'>
+                <div className='md:mx-28 flex lg:flex-row flex-col justify-between md:leading-10 items-center'>
 
                     <div className=' flex flex-col gap-10 pt-10'>
 
@@ -22,7 +22,7 @@ const Banner = () => {
 
                     </div>
 
-                    <img className='md:mt-0 mt-5 md:-mr-24' src={bannerImg} alt="" />
+                    <img className='md:mt-0 mt-5 lg:-mr-24' src={bannerImg} alt="" />
                 </div>
             </div>
         </div>

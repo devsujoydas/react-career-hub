@@ -23,7 +23,7 @@ const Job = ({ job }) => {
         <h2 className="card-title">{job_title}</h2>
         <p>{company_name}</p>
 
-        <div className="flex gap-5">
+        <div className="flex md:flex-col lg:flex-row gap-5">
           <button className={btnStyle}>{remote_or_onsite}</button>
           <button className={btnStyle}>{job_type}</button>
         </div>

@@ -30,6 +30,18 @@ const AppliedJobs = () => {
         <h1 className='font-bold text-3xl'>Applied Jobs</h1>
         <img className='absolute bottom-0 left-0' src={bgImg1} alt='' />
       </div>
+      <div className="dropdown">
+
+      <div tabIndex={0} role="button" className="btn m-1">Click</div>
+        <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+          <li><a>All</a></li>
+          <li><a>Remote</a></li>
+          <li><a>Onsite</a></li>
+          <li><a>Part Time</a></li>
+          <li><a>Internship</a></li>
+          <li><a>Internship</a></li>
+        </ul>
+      </div>
 
       <div className='max-w-screen-2xl md:mx-auto my-20'>
         <div className='md:mx-32 mx-10 grid gap-6'>
