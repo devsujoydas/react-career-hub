@@ -1,6 +1,6 @@
-import fbImg from '../../../public/assets/icons/facebook.png';
-import twitterImg from '../../../public/assets/icons/twitter.png';
-import instaImg from '../../../public/assets/icons/insta.png';
+import fbImg from '/assets/icons/facebook.png';
+import twitterImg from '/assets/icons/twitter.png';
+import instaImg from '/assets/icons/insta.png';
 
 const Footer = () => {
     const aStyle = 'hover:underline hover:text-emerald-600 hover:-translate-y-1 transition-all'

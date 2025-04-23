@@ -1,6 +1,6 @@
 import Applied from './Applied'
-import bgImg1 from '../../../public/assets/images/bg1.png'
-import bgImg2 from '../../../public/assets/images/bg2.png'
+import bgImg1 from '/assets/images/bg1.png'
+import bgImg2 from '/assets/images/bg2.png'
 import { useLoaderData } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { getStoredJobApplication } from '../utility/LocalStorage'

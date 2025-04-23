@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import Job from "../Job/Job"
-import bgImg1 from "../../../public/assets/images/bg1.png"
-import bgImg2 from "../../../public/assets/images/bg2.png"
+import bgImg1 from "/assets/images/bg1.png"
+import bgImg2 from "/assets/images/bg2.png"
 
 const JobsPage = () => {
     const [jobs, setJobs] = useState([]);

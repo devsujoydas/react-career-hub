@@ -2,7 +2,7 @@
 
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import loacationImg from "../../../public/assets/icons/Location.png"
+import loacationImg from "/assets/icons/Location.png"
 
 const Applied = ({job}) => {
     

@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 import { useLoaderData, useNavigate, useParams } from "react-router-dom"
 import { IoArrowBack } from "react-icons/io5";
-import bgImg1 from "../../../public/assets/images/bg1.png"
-import bgImg2 from "../../../public/assets/images/bg2.png"
+import bgImg1 from "/assets/images/bg1.png"
+import bgImg2 from "/assets/images/bg2.png"
 
-import salaryImg from "../../../public/assets/icons/money.png"
-import jobTitleImg from "../../../public/assets/icons/calendar.png"
-import phoneImg from "../../../public/assets/icons/phone.png"
-import emailImg from "../../../public/assets/icons/email.png"
-import locationImg from "../../../public/assets/icons/Location2.png"
+import salaryImg from "/assets/icons/money.png"
+import jobTitleImg from "/assets/icons/calendar.png"
+import phoneImg from "/assets/icons/phone.png"
+import emailImg from "/assets/icons/email.png"
+import locationImg2 from "/assets/icons/location2.png"
 import { ToastContainer, toast } from 'react-toastify';
 import { saveJobApplication } from "../utility/LocalStorage"
 
@@ -19,9 +19,11 @@ const JobDetails = () => {
   const jobs = useLoaderData();
   const { id } = useParams();
   const idInt = parseInt(id)
+  
   const job = jobs.find(job => job.id === idInt);
+
   const { job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
-  const { company_name, job_title, job_type, location, logo, remote_or_onsite, salary } = job;
+  const { job_title, salary } = job;
   const { phone, address, email } = contact_information;
 
   const navigate = useNavigate();
@@ -76,7 +78,7 @@ const JobDetails = () => {
                   <h1 className="flex gap-2"><img src={emailImg} alt="" /><span className="font-bold">Email :</span>{email}</h1>
                   <h1 className="flex gap-2">
                     <div>
-                      <img className="md:w-10 w-16" src={locationImg} alt="" />
+                      <img className="md:w-10 w-16" src={locationImg2} alt="" />
                     </div>
                     <span className="font-bold">Address:</span>
                     <span>{address}</span>

@@ -3,7 +3,7 @@ import CategoriesList from "../CategoriesList/CategoriesList"
 import FeaturedJobs from "../FeaturedJobs/FeaturedJobs"
 
 
-const Home = () => {
+const Home = () => {;
 
     return (
         <div>
