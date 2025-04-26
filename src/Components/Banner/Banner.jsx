@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import bannerImg from '/assets/images/user.png'
+import bannerImg from "/assets/images/user.png"
 const Banner = () => {
     return (
         <div className='bg-[#7E90FE] bg-opacity-5 pt-10 mb-20 '>

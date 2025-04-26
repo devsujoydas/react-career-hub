@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import salaryImg from "../../../public/assets/icons/money.png"
-import locationImg from "../../../public/assets/icons/Location2.png"
+import salaryImg from "/assets/icons/money.png"
+import locationImg from "/assets/icons/location2.png"
 import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {

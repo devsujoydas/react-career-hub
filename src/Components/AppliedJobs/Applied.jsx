@@ -2,7 +2,7 @@
 
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import loacationImg from "/assets/icons/Location.png"
+import locationImg from "/assets/icons/location2.png"
 
 const Applied = ({job}) => {
     
@@ -32,7 +32,7 @@ const Applied = ({job}) => {
                         </div>
 
                         <div className=' flex flex-col lg:flex-row md:gap-5 gap-2 text-lg'>
-                            <h1 className='flex items-center gap-1'><img src={loacationImg} alt="" />{location}</h1>
+                            <h1 className='flex items-center gap-1'><img src={locationImg} alt="" />{location}</h1>
                             <h1 className='flex items-center gap-1'><AiOutlineDollarCircle />Salary : {salary}</h1>
                         </div>
                     </div>

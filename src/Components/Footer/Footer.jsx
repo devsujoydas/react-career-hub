@@ -1,5 +1,5 @@
-import fbImg from '/assets/icons/facebook.png';
-import twitterImg from '/assets/icons/twitter.png';
+import fbImg from "/assets/icons/facebook.png";
+import twitterImg from "/assets/icons/twitter.png";
 import instaImg from '/assets/icons/insta.png';
 
 const Footer = () => {
